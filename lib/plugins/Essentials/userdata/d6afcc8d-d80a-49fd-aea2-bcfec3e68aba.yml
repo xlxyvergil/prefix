@@ -1,0 +1,43 @@
+lastlocation:
+  world: world
+  x: 1558.4932130455936
+  y: 27.867257747707487
+  z: -57.30000001192093
+  yaw: -129.87244
+  pitch: 33.15939
+lastAccountName: Haruitsuki
+timestamps:
+  login: 1606568186134
+  lastteleport: 1606571897806
+  logout: 1606572002973
+ipAddress: 121.204.95.144
+homes:
+  ene:
+    world: world
+    x: 996.8528239305881
+    y: 80.0
+    z: 152.5747677708519
+    yaw: 347.24097
+    pitch: 28.785707
+  b:
+    world: world
+    x: 1629.6441207111238
+    y: 50.0
+    z: -29.105397503811155
+    yaw: 99.286224
+    pitch: 23.675186
+  c:
+    world: world
+    x: 1047.931516459982
+    y: 22.0
+    z: 136.37616676668344
+    yaw: 90.97286
+    pitch: 14.004137
+money: '1099.78'
+logoutlocation:
+  world: world
+  x: 997.7162562778061
+  y: 80.0
+  z: 154.6122442553514
+  yaw: 79.063354
+  pitch: 42.949142

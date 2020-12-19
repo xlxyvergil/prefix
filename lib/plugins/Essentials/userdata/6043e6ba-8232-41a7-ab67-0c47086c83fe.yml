@@ -1,0 +1,31 @@
+lastAccountName: Water_Moon
+timestamps:
+  login: 1607647533457
+  logout: 1607648857884
+  lastteleport: 1607648502316
+ipAddress: 75.102.128.38
+lastlocation:
+  world: world
+  x: 683.3926519170926
+  y: 64.0
+  z: 187.11727332870453
+  yaw: 45.900208
+  pitch: 34.64998
+logoutlocation:
+  world: world
+  x: 1914.2157254270594
+  y: 67.0
+  z: 1128.141445317519
+  yaw: -199.07025
+  pitch: 23.238266
+nickname: Water_Moon
+afk: false
+money: '1373.83'
+homes:
+  home:
+    world: world
+    x: 1914.2157254270594
+    y: 67.0
+    z: 1128.141445317519
+    yaw: -199.07025
+    pitch: 23.238266

@@ -1,0 +1,156 @@
+#默认先打开魔矿精锻界面，如果关闭其中一个，则默认打开另一个
+#两个都关闭则不启用
+
+#是否启用魔矿精锻
+Stone: false
+#是否启用游戏币精锻
+Money: true
+
+#是否额外消耗等级
+Level: true
+#每次消耗的等级
+SpendLevel: 5
+
+
+#精锻用魔矿的名称
+ItemName: '&d精锻用魔矿'
+#精锻用魔矿的lore
+ItemLore:
+  - '&a使用本物品，可以在强化附魔台精锻工具物品'
+  - '&a输入/gi gui即可打开精锻附魔台界面'
+  - '&f精锻附魔台可以让武器/工具的附魔突破上限'
+  - '&f甚至产生额外新的词条，让武器/工具发挥更大的作用'
+#精锻后武器是否记录武器的精锻次数（如果关闭则无法限制最大强化次数和概率等）
+StrengtheningTimes: true
+#精锻次数的lore（不包括次数的前缀）
+StrengtheningLore: '&f本武器精锻次数： &6+'
+#武器最多精锻多少次（0则不启用）
+StrengtheningNumber: 50
+
+
+
+#精锻几率
+#精锻数小于设置数字时的概率为...
+#格式“精锻数:概率（百分比）”
+#精锻数超出最大设置后，概率为设置的默认概率
+Forging:
+  - '4:70%'
+  - '8:65%'
+  - '12:60%'
+  - '16:50%'
+  - '20:40%'
+  - '24:30%'
+  - '28:25%'
+  - '32:20%'
+  - '36:10%'
+  - '40:5%'
+#超出最大设置后的概率
+MaxForging: 5%
+
+#精锻成功后随机提高几个词条的等级（会重复）
+SucceedUpgradeEntry: 1
+#精锻成功后随机提高现有附魔的等级
+#最小值
+SucceedUpgradeMin: 1
+#最大值
+SucceedUpgradeMax: 2
+
+#精锻失败后，有多少几率会降附魔等级（百分比）
+FailureChance: 70%
+#将会随机减少的词条数量（会重复）
+FailureEntry: 1
+#降低现有附魔等级（如果不足则会消失）
+#最小值
+FailureMin: 1
+#最大值
+FailureMax: 2
+
+#每精锻...次后随机生成一个符合条件的附魔
+NewEntryNumber: 1
+#条件是否包括不冲突附魔（比如锋利和截肢杀手不能共存）
+DoNotConflict: true
+#生成达到上限（没有能符合的新附魔）随机提高几个词条的等级（会重复）
+NoNewEntryUpgradeEntry: 1
+#提高现有附魔的等级
+#最小值
+NoNewEntryUpgradeMin: 1
+#最大值
+NoNewEntryUpgradeMax: 2
+
+
+
+#每次精锻消耗的精锻用魔矿
+#精锻数小于设置数字时的消耗为...
+#格式“锻造数:消耗的精锻用魔矿数量”
+#精锻数超出最大设置后，数量为设置的默认数量
+StrengthenStone:
+  - '4:2'
+  - '8:3'
+  - '12:5'
+  - '16:7'
+  - '20:10'
+  - '24:14'
+  - '28:18'
+  - '32:22'
+  - '36:24'
+#超出最大设置后的数量
+MaxStrengthenStone: 40
+
+
+#每次精锻消耗的游戏币
+#精锻数小于设置数字时的消耗为...
+#格式“锻造数:消耗的游戏币”
+#精锻数超出最大设置后，数量为设置的默认数量
+SpendMoney:
+  - '4:2000'
+  - '8:3000'
+  - '12:5000'
+  - '16:7000'
+  - '20:10000'
+  - '24:12000'
+  - '28:14000'
+  - '32:16000'
+  - '34:20000'
+  - '38:24000'
+  - '42:28000'
+  - '46:32000'
+  - '50:40000'
+#超出最大设置后的数量
+MaxSpendMoney: 50000
+
+
+#是否提供游戏币提高下次精锻概率功能
+IncreaseProbability: true
+#每次提高的概率（可叠加）
+Probability: 3%
+#最高能达到的总成功率
+MaxProbability: 70%
+#每次消耗的游戏币
+IncreaseProbabilitySpendMoney: 1000
+
+
+#附魔黑名单（请输入不希望新词条随机出现的附魔）
+BlackList: 
+  - BINDING_CURSE
+  - VANISHING_CURSE
+  - FIRE_ASPECT
+  - MENDING
+#是否启用全局异常附魔上限保护（限制超出上限附魔的使用）
+ErrorEnchant: true
+#附魔上限
+ErrorEnchantMax: 10
+#超出附魔上限后是否把此附魔等级降低到上限
+ReduceEnchatLevel: true
+
+#是否禁止原版附魔台附魔
+NoEnchatTable: false
+#禁止后，放入未拥有附魔的物品时，随机生成的词条数量
+#最小值
+NewCreareEnchatMin: 1
+#最大值
+NewCreareEnchatMax: 3
+#禁止后，放入未拥有附魔的物品时，随机生成的词条等级
+#最小值
+NewCreareEnchatLevelMin: 1
+#最大值
+NewCreareEnchatLevelMax: 3

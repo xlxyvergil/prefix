@@ -1,0 +1,29 @@
+lastAccountName: lovemier
+timestamps:
+  login: 1607695723537
+  logout: 1607696730869
+  lastteleport: 1607696684710
+ipAddress: 220.180.240.136
+lastlocation:
+  world: world
+  x: 788.0438237255362
+  y: 64.0
+  z: 915.1916531619584
+  yaw: 153.4867
+  pitch: 3.9941297
+logoutlocation:
+  world: world
+  x: 773.5
+  y: 150.6875
+  z: 886.0999755859375
+  yaw: 144.79482
+  pitch: 28.78493
+homes:
+  h:
+    world: world
+    x: 775.6870694938837
+    y: 150.0
+    z: 893.0073563365951
+    yaw: 101.992485
+    pitch: 13.061593
+money: '1144.68'

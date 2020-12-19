@@ -1,0 +1,31 @@
+version: '1.1'
+IC2_TE:
+  Confiscate: true
+  Reason: 该物品已经被禁用
+  CurrentId: 4290
+  damage@57:
+    CurrentName: Invalid
+  damage@40:
+    CurrentName: Invalid
+  damage@82:
+    CurrentName: Invalid
+  damage@2:
+    CurrentName: Invalid
+IMMERSIVEENGINEERING_RAILGUN:
+  Confiscate: true
+  Reason: 该物品已经被禁用
+  CurrentId: 5738
+  damage@0:
+    CurrentName: 磁轨炮
+IMMERSIVEENGINEERING_REVOLVER:
+  Confiscate: true
+  Reason: 该物品已经被禁用
+  CurrentId: 5734
+  damage@0:
+    CurrentName: 左轮手枪
+TWILIGHTFOREST_UNCRAFTING_TABLE:
+  Confiscate: true
+  Reason: 该物品已经被禁用
+  CurrentId: 5039
+  damage@0:
+    CurrentName: 拆解台

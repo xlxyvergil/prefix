@@ -1,0 +1,15 @@
+#
+# 翻译&解释 by Fur_Xia
+#
+# 你可以在这里自定义信息！
+#
+# 占位符:
+# %group% - 返回输入的不存在的组名
+#
+prefix: '&8[&c&lGM&f&l+&8] '
+no_permission: '&c您没有那样做的权限!'
+reload: '&a所有的设置已经被成功重载，插件汉化&解释 by Fur_Xia!'
+
+manuadd_error: '&c请检查您输入的内容! (/manuadd <player> <group> | 可选 [world])'
+manuadd_group_not_exist: '&c您指定的组： "%group%" 不存在!'
+    

@@ -1,0 +1,44 @@
+lastAccountName: Nekomata_Okayu
+timestamps:
+  login: 1608195452146
+  logout: 1608202159877
+  lastteleport: 1608197381894
+ipAddress: 117.147.76.38
+lastlocation:
+  world: world
+  x: 268.36217966985083
+  y: 36.0
+  z: 3881.4068475948857
+  yaw: -210.08319
+  pitch: 42.83219
+logoutlocation:
+  world: world
+  x: 774.533063650491
+  y: 150.0
+  z: 886.1244727725609
+  yaw: 176.33868
+  pitch: 20.425667
+money: '1200.31'
+homes:
+  b:
+    world: world
+    x: 767.4177030881552
+    y: 150.0
+    z: 893.6015988658988
+    yaw: -196.72952
+    pitch: 57.450874
+  c:
+    world: world
+    x: 5267.937989508821
+    y: 70.0
+    z: -160.18676090438103
+    yaw: -239.56807
+    pitch: 20.498865
+  a:
+    world: world
+    x: 6664.5
+    y: 64.0
+    z: 6578.5
+    yaw: 120.53352
+    pitch: 4.2168403
+afk: false

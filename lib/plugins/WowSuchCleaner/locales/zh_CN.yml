@@ -1,0 +1,83 @@
+﻿cleaning:
+  preNotify: '&c掉落物将在{time}秒后被清理！'
+  cleanNotify: '&e{count}&c个掉落物已被清理!'
+  
+ui:
+  title: '拍卖品目录(点击可出价)'
+  clickToRefresh: '&r&b刷新(Q)'
+  prevPageButton: '&r&b上一页: &a{page}'
+  nextPageButton: '&r&b下一页: &a{page}'
+  currentPage: '&r&b当前页码: &a{page}'
+  currentPrice: '&r&b当前价格: &a{price} {currency}'
+  lastBid: '&r&b最后出价: 玩家: &a{player}&b | 价格增幅: &a{price} {currency}'
+  minimumIncrement: '&r&b最低价格增幅: &a{price} {currency}'
+  bidUnstarted: '&r&a暂无出价'
+  timeRemaining: '&r&b剩余时间: &a{time} 秒'
+  anonymous: '&9[匿名]'
+
+  lotOperationMenu: 拍卖品操作菜单
+  forcePurchase: '&6强制购买'
+  forcePurchaseLore: '&6强制以当前价格购买该商品'
+  removeLot: '&c移除商品'
+  removeLotLore: '&c移除该商品并将其发送到你的背包'
+  removeLotLore2: '&c按住Shift点击可移除该商品并丢弃'
+  fullInventory: '&c你的背包已满。'
+  back: '&a返回'
+
+  bidPrompt: "&b直接在聊天框中输入价格增幅来出价，或者输入&acancel&b取消。在价格前加&aa&b可以匿名出价。"
+  chargePerBid: '&b每次加价的手续费是&a{chargePercent}%&b ，最低手续费是&a{minimumCharge} {currency}。'
+  wrongBidFormat: '&c出价格式错误。'
+  bidCancelled: '&c出价已取消。'
+  bidTooLow: '&c最低价格增幅: &e{minimumIncrement} {currency}'
+  balanceNotEnough: "&c您没有足够的金钱。 您的金钱余额是: &e{balance} {currency}"
+  bidTooFast: "&c您出价太快了。请再等待&e{time}&c秒。"
+  sucessfulBid: '&a出价成功。价格增幅: &b{price} {currency}&a | 手续费: &b{charge} {currency}'
+  fullVault: '&c您的保险箱已满。注意：当您首次为一件拍卖品出价时，它将占用一个位置。'
+  itemAlreadySold: '&c该物品已成交。'
+  itemNoLongerAvailable: '&c该物品已下架。'
+
+  hammerBuyer: "&a您成功竞拍了一件商品，商品已发送至您的背包或保险柜。"
+  hammerOthers: "&a您竞拍的商品已出售，您的竞拍款已退还到您的账户。"
+
+  vault: 保险柜 - 点击可取出物品
+
+commands:
+  playerNeeded: '&c这个命令必须由玩家执行。'
+  noPermission: '&c权限不足。'
+  region:
+    help: '&b{usage} - 查看区域命令。'
+    emptyRegionName: '&c区域名称不能为空。'
+    regionNameAlreadyExists: '&c已有同名区域。'
+    emptyAuctionProfileName: '&c拍卖设定档名称不能为空。'
+    noSuchAuctionProfile: '&c指定的拍卖设定档不存在。'
+    emptyCleaningProfileName: '&c清理设定档名称不能为空。'
+    noSuchCleaningProfile: '&c指定的清理设定档不存在。'
+    create:
+      help: '&b{usage} - 创建区域并设置相应的拍卖、清理设定档。'
+      settingModeEntered: "&b你已进入区域设置模式。使用鼠标左右键选择对角点来创建区域。"
+      settingModeExited: "&b你已退出区域设置模式。"
+      pointSet: '&b成功设置点{pointIndex}。'
+      regionBuilt: '&a区域已建立。'
+      regionAreaAlreadyExists: '&c已在相同位置创建过区域。'
+    createWorld:
+      help: '&b{usage} - 创建世界区域并设置相应的拍卖、清理设定档。'
+      success: '&a已创建世界区域。'
+      noSuchWorldWarning: "&c警告：指定的世界不存在。"
+      worldRegionAlreadyExists: '&c已为该世界创建过区域。'
+    remove:
+      help: '&b{usage} - 根据区域名称移除区域。'
+      noSuchRegion: '&c没有这个区域。'
+      success: '&a区域已移除。'
+  auction:
+    help: '&b{usage} - 拍卖您手中的道具。'
+    notAuctionable: '&c您手上的道具无法进行拍卖。'
+    success: '&a您的道具已录入拍卖目录。'
+  showcase:
+    help: '&b{usage} - 打开商品目录。'
+  vault:
+    help: '&b{usage} - 打开您的保险柜。'
+  reload:
+    help: '&b{usage} - 重载插件。'
+    reloaded: '&a插件已重载。'
+
+# Contributor: Velvit

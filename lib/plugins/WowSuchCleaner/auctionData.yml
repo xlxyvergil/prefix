@@ -1,0 +1,61 @@
+lots:
+  50eff824-1a44-4334-a88f-67faafb1c8ac:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244383153
+    auctionDurationExpire: 300000
+  a13f4429-a3b3-435b-a65a-2c15ad5adf23:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244771299
+    auctionDurationExpire: 300000
+  39f1d052-f574-4050-8144-896a562e2dbc:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244798801
+    auctionDurationExpire: 300000
+  572a4025-5736-4a5e-acc8-180fe0880c9f:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244798801
+    auctionDurationExpire: 300000
+  318d43cb-c512-4a78-9f88-75833e7071f5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244798801
+    auctionDurationExpire: 300000
+  08fac0c4-44af-4a41-8661-c22f40e9b16b:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    started: false
+    price: 1.0
+    lastBidPrice: -1.0
+    minimumIncrement: 0.05
+    preserveTimeExpire: 1608244798801
+    auctionDurationExpire: 300000

@@ -1,0 +1,30 @@
+lastAccountName: plasma
+timestamps:
+  login: 1608194177812
+  logout: 1608080794806
+  lastteleport: 1608203265424
+ipAddress: 36.102.20.72
+lastlocation:
+  world: world
+  x: 2488.0082504796956
+  y: 63.0
+  z: -1579.4488896783914
+  yaw: 269.44885
+  pitch: 25.17231
+logoutlocation:
+  world: world
+  x: 2889.5646274141227
+  y: 69.0
+  z: -1410.5946516487606
+  yaw: -301.9085
+  pitch: 24.298702
+money: '1211.22'
+afk: false
+homes:
+  home:
+    world: world
+    x: 2898.5906059181398
+    y: 70.0
+    z: -1409.2435973304723
+    yaw: 47.49823
+    pitch: 13.317369

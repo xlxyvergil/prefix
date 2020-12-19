@@ -1,0 +1,84 @@
+StoneTile: '&b精锻附魔台&f（精锻用魔矿）'
+MoneyTile: '&b精锻附魔台&f（游戏币）'
+
+InsertName: '&d请在此位置放入物品'
+InsertLore: []
+
+CutoverName: '&c切换消耗物品的状态'
+CutoverStoneLore:
+  - '&6当前状态：消耗&e精锻用魔矿'
+CutoverMoneyLore:
+  - '&6当前状态：消耗&e游戏币'
+
+InfoName: '&a使用说明'
+InfoLore:
+  - '&a放入需要强化的武器/工具'
+  - '&a再消耗对应精锻用魔矿/游戏币'
+  - '&a即可对武器/工具进行附魔精锻'
+  - '&c每4级精锻会额外生成一个新的附魔'
+  - '&c每个武器/工具最多强化[number]次'
+
+ProbabilityName: '&5本次强化的概率'
+ProbabilityLore:
+  - '&7本次精锻总成功率为[all]'
+  - '&7原始概率： [number]'
+  - '&e额外概率： [other]'
+  - '&a放上物品点击进行查看当前概率'
+  - '&8精锻失败可能导致附魔降级'
+  - '&8等级不足时甚至会清空附魔'
+
+StartName: '&5开始精锻'
+StartStoneLore:
+  - '&5本次精锻消耗&5[level]&d等级'
+  - '&d本次精锻消耗&5[number]&d个精锻用魔矿'
+  - '&c请在此列最上方放入精锻用魔矿'
+StartMoneyLore:
+  - '&5本次精锻消耗&d[level]等级'
+  - '&e本次精锻消耗&6[number]&e游戏币'
+
+NoItem: '&c请放入需要精锻的物品！'
+
+IncreaseProbabilityName: '&e提高&6[number]&e概率'
+IncreaseProbabilityLore:
+  - '&e消耗[money]&6游戏币&e可以额外提高下次的精锻成功率'
+  - '&e最高可达&f[number]&e概率'
+
+PrecisionForgingTimes: '&5精锻： §6+'
+
+NoMoney: '&c游戏币不足，需要&6[number]&c游戏币，你只有&e[money]'
+
+SuessceSpendMoney: '&a成功花费&6[money]&e游戏币&a来提高&7[number]&8概率'
+
+NoTool: '&c请放入需要精锻的武器/工具！'
+
+NoStone: '&c请放入精锻用魔矿！'
+
+ShortStone: '&c精锻用魔矿不足，需要[number]颗！'
+
+NoLevel: '&c等级不足，需要[level]级！'
+
+NoEnchant: '&c这个物品没有附魔！'
+
+IncreaseEnchant: '&a附魔&d[enchant]&a提高了&7[level]&f级'
+
+NewEnchant: '&6新生成附魔&d[enchant]&a并提高了&7[level]&f级'
+
+NoNewEnchant: '&5可生成附魔已达到上限，转化为&d[enchant]&a提高&7[level]&f级'
+
+NoPenalty: '&c精锻失败，没有惩罚！'
+
+ReduceEnchantLevel: '&c锻造失败！附魔[enchant]被降低了[level]级！'
+
+RemoveEnchant: '&c附魔[enchant]已消失！'
+
+OverLimit: '&c超出锻造上限！最多锻造[number]次！'
+
+ErrorEnchant: '&c异常附魔，无法使用！'
+
+ReduceEnchatLevel: '&c再次使用则会使异常附魔等级降低到可使用上限'
+
+NoAnyEnchat: '&c没有任何附魔，无法降低等级！'
+
+NoEnchatTable: '&c附魔台已停用，请输入/gi gui来生成附魔'
+
+NoEnchat: '&c该物品不能附魔！'

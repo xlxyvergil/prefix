@@ -1,0 +1,37 @@
+lastAccountName: xlxyvergil
+timestamps:
+  login: 1608262509122
+  lastteleport: 1608148094561
+  logout: 1608263195205
+ipAddress: 192.168.1.3
+lastlocation:
+  world: world
+  x: 123.0
+  y: 64.0
+  z: 59.0
+  yaw: 0.0
+  pitch: 0.0
+money: '6697.19'
+homes:
+  b:
+    world: world
+    x: 5276.04711428735
+    y: 70.0
+    z: -163.9836837359678
+    yaw: 240.86714
+    pitch: 25.13116
+  a:
+    world: world
+    x: 763.6675028209515
+    y: 150.0
+    z: 880.0590010831905
+    yaw: -265.90244
+    pitch: -28.968157
+logoutlocation:
+  world: world
+  x: 683.6999999880791
+  y: 63.0
+  z: 187.5166677593952
+  yaw: -163.64961
+  pitch: 29.699984
+afk: false

@@ -1,0 +1,7 @@
+LanguageUnitList:
+  anExample:
+    PluginName: None
+    Enable: false
+    Language:
+      OldText: '<fixed>Online: </fixed><put>number</put><fixed>player(s)</fixed>'
+      NewText: '<fixed>&6在线玩家: &a</fixed><get>number</get><fixed>&6人</fixed>'

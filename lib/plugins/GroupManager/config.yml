@@ -1,0 +1,56 @@
+#
+# GroupManager+ 
+# 	config.yml
+# 翻译&解释 by Fur_Xia
+#
+settings:
+  config:
+    # 若本项为true，则服务器op将会拥有所有管理GroupManager（本插件）的权限
+    # 他们可以为其他任何玩家提权/降权到任意组
+    opOverrides: true
+    
+    # 'mantogglevalidate'的默认设置
+    # 如果为true将会让GroupManager默认尝试对应用户名与UUID
+    # 如果您服务器设置中"online_mode=false"，请将本项改为false以免出现错误。
+    validate_toggle: true
+    # ************************************************************************************************************************************************************
+    # *** NOTE: 是否同意使用命令方块 （启用此功能会允许使用命令方块，这可能导致玩家权限更改。）请再三考虑是否开启！！！！我们再此警告您！！！！！！！！！！！ ***
+    # ************************************************************************************************************************************************************
+    allow_commandblocks: false
+    
+  data:
+    save:
+      # 保存配置文件（groups.yml和users.yml）分钟间隔 
+      minutes: 10
+      # 备份文件保留多少小时 (plugins/GroupManager/backup)
+      hours: 24
+      
+  logging:
+    # GroupManager 的日志详细程度等级   详细<-------->不详细.
+    # 请在下方填写以下的值 - ALL,CONFIG,FINE,FINER,FINEST,INFO,OFF,SEVERE,WARNING
+    level: INFO
+    
+  mirrors:
+        # 多世界设置,世界列表中子世界将参照父世界的设置.
+        # 第一个世界 'world' 是主世界名称
+        # 子世界 'world_nether' 和 'world_the_end' 将会
+        # 与父世界使用相同的玩家/用户组文件.
+        # 每个子世界可以设置镜像的 'groups', 'users' 或者与父世界使用一样的设置.
+        # all_unnamed_worlds将会代表所有未定义的世界
+        world:
+          world_nether:
+          - users
+          - groups
+          world_the_end:
+          - users
+          - groups
+          all_unnamed_worlds:
+          - users
+          - groups       
+    #  world2:      (World2 将会拥有自己的独立设置文件)
+    #    world3:
+    #    - users    (World3 使用World2的 users.yml，但是它拥有独立的 groups.yml)
+    #    world4:
+    #    - groups   (World4 使用World2的 groups.yml，但是它拥有独立的 users.yml)
+    #  world5:
+    #    - world6   (这将使 world6 拥有和 world5 同样的配置文件)

@@ -1,0 +1,79 @@
+NOT_PLAYER: '&4错误&8: &c你需要输入一个皮肤ID!'
+NOT_ONLINE: '&4错误&8: &c玩家不在线!'
+SKIN_COOLDOWN: '&e你可以每 %s 秒改变一次皮肤.'
+SKIN_CHANGE_SUCCESS: '&2你的皮肤已经改变.'
+PLAYER_HAS_NO_PERMISSION: '&4错误&8: &c你没有权限这样做.'
+SKIN_DISABLED: '&4错误&8: &c此皮肤被管理员禁用.'
+UNKNOWN_COMMAND: '&c未知的命令. 输入 "/help" 需求帮助.'
+ALT_API_FAILED: '&4错误&8: &c皮肤的 API 数据已超载,请稍后再试!'
+NOT_PREMIUM: '&4错误&8: &c拥有此名字的高级玩家不存在.'
+RATE_LIMITED: "&4错误&8: &cYou are rate limited for this skin! \n&cPlease wait10 minutes\
+  \ before requesting the same skin again."
+GENERIC_ERROR: '&4错误&8: &c请求皮肤数据时出错,请重试!'
+SKIN_DATA_DROPPED: '&2%player 皮肤数据删除成功.'
+SKIN_DATA_SAVED: '&2%player 皮肤数据保存成功.'
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver%
+      &2/skin <皮肤ID> &7-&f 更改你想要的正版用户皮肤.
+ADMIN_SET_SKIN: '&2已设置成 %player 的皮肤.'
+HELP_ADMIN: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver% &c&l管理员指令
+
+      &2/sr set <玩家ID> <皮肤ID> &7- &f设置玩家皮肤..
+      &2/sr drop <皮肤ID> &7- &f删除皮肤数据.
+      &2/sr reload &7- &f重新加载配置/语言文件.
+      &2/sr props [玩家ID] &7- &f还原玩家实际皮肤.
+RELOAD: '&2成功重新加载配置和语言文件!'
+NO_SKIN_DATA: '&4错误&8: &c此皮肤没有数据了,这个ID不是正版或者就是没皮肤?'
+OUTDATED: "&4你正在运行一个旧版的 SKINSRESTORER!\n&c更新地址 to latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+PREFIX: '&e[&2SkinsRestorer&e] '
+HELP_SKIN_CLEAR: Clears your skin.
+HELP_SKIN_CLEAR_OTHER: Clears the skin of another player.
+HELP_SKIN_UPDATE: Updates your skin.
+HELP_SKIN_UPDATE_OTHER: Updates the skin of another player.
+HELP_SKIN_SET: Set the skin of another player.
+HELP_SKIN_SET_OTHER: Sets the skin of another player.
+HELP_SKIN_SET_OTHER_URL: Set a skin by Image_url.png
+HELP_SR_RELOAD: Reloads the configuration file.
+HELP_SR_STATUS: Checks plugin needed API services
+HELP_SR_DROP: Removes players or skin data.
+HELP_SR_PROPS: Displays the players current skin properties.
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <url>'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+PLAYER_HAS_NO_PERMISSION_SKIN: '&4Error&8: &cYou don''t have permission to set this
+  skin.'
+PLAYER_HAS_NO_PERMISSION_URL: '&4Error&8: &cYou don''t have permission to set skins
+  by URL.'
+INVALID_PLAYER: '&4Error&8: &c%player is not a valid username or URL.'
+SKIN_CLEAR_SUCCESS: '&2Your skin has been cleared.'
+SKIN_CLEAR_ISSUER: '&2Skin cleared for player %player.'
+MS_UPDATING_SKIN: '&2Uploading skin, please wait...(This may take up some time)'
+SUCCESS_UPDATING_SKIN: '&2Your skin has been updated.'
+SUCCESS_UPDATING_SKIN_OTHER: '&2Skin updated for player %player.'
+ERROR_UPDATING_SKIN: '&4Error&8: &cAn error occurred while updating your skin. Please
+  try again later!'
+ERROR_UPDATING_URL: "&4Error&8: &cYou can't update custom url skins! \n&cRequest again\
+  \ using /skin url"
+ERROR_UPDATING_CUSTOMSKIN: '&4Error&8: &cSkin can''t be updated because its custom.'
+ERROR_INVALID_URLSKIN: "&4Error&8: &cInvalid skin url or format, \n&cTry uploading\
+  \ your skin to imgur and right click 'copy image address' \n&cFor guide see: &c&oskinsrestorer.net/skinurl"
+ERROR_MS_FULL: '&4MS Error&8: &cAPI timed out while uploading your &cskin. Please
+  try again later. (MineSkin)'
+ERROR_MS_GENERIC: '&4MS Error&8: &c%error%'
+WAIT_A_MINUTE: '&4Error&8: &cPlease wait a minute before requesting that skin again.
+  (Rate Limited)'
+ERROR_NO_SKIN: '&4Error&8: &cThis player has no skin set.'
+SKINSMENU_OPEN: '&2Opening the skins menu...'
+SKINSMENU_TITLE_NEW: '&9Skins Menu - Page %page'
+SKINSMENU_NEXT_PAGE: '&a&l»&7 Next Page&a&l »'
+SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Previous Page&e&l «'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Remove Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Click to select this skin'
+DATA_DROPPED: '&2Data dropped for %playerOrSkin %targets.'
+STATUS_OK: '&2Mojang API connection successful!'
+MS_API_FAILED: '&4Error&8: &cMineSkin API is overloaded, please try again later!'

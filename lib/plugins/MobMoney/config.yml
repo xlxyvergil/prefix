@@ -1,0 +1,1561 @@
+# 
+# MOB MONEY
+# %reward% changes to however much money the player earns for killing the mob - if you want to take money, write, for example: -5 (to take $5)
+# %mob% changes to the mob name
+# %player% changes to the player name
+# For commands, write the command as (example): "/say %player% killed %mob% for %reward%!"
+# For min and max amount of money, the default 'money:' var will override them, so set the 'money:' variable to 0 if you want there to be a random amount of money
+# If you wish the player to receive no money, set all three money variables to 0.
+# !!! YOUR VERSION OF MINECRAFT MAY NOT HAVE ALL THE MOBS IN THE CONFIG, HOWEVER PLEASE DO NOT REMOVE THE MOBS FROM THE CONFIG !!!
+prefix: '&c[Mob Money] '
+rewardMessage: '&a你从 &b%mob% &a身上获得了 &b$%reward%!'
+punishedMessage: '&c你损失了 &f$%reward% &c因为杀死了 &f%mob%!'
+GRIMOIREOFGAIA_ANT:
+  name: 蚂蚁
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_ANTHILL:
+  name: 蚂蚁丘
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+GRIMOIREOFGAIA_ANTRANGER:
+  name: 护卫蚁
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_ANUBIS:
+  name: 阿努比斯
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_ARACHNE:
+  name: 阿拉克涅
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_ARMOREDGIANT:
+  name: 武装巨人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BANSHEE:
+  name: 女鬼
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BAPHOMET:
+  name: 巴风特
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BEE:
+  name: 蜜蜂
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+MYSTICALWORLD_BEETLE:
+  name: 甲虫
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BEHOLDER:
+  name: beholder
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_BIGHORNSHEEP:
+  name: 大角山羊
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_BLOCKCHAINGOBLIN:
+  name: 链锤哥布林
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_BOGGARD:
+  name: 博格德
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BONEKNIGHT:
+  name: 骷髅骑士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_BRAINYZOMBIE:
+  name: 红眼僵尸
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_BUNNY:
+  name: 兔子
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_BUTLER:
+  name: 男仆
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_CASTLEGUARDIAN:
+  name: 城堡守护者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_CECAELIA:
+  name: 章鱼人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_CENTAUR:
+  name: 半人马
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+MYSTICALWORLD_CLAM:
+  name: 蛤蜊
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_COBBLEGOLEM:
+  name: 圆石傀儡
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_COBBLESTONEGOLEM:
+  name: 大圆石傀儡
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_CREEP:
+  name: 爬行球
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_CREEPERGIRL:
+  name: 苦力怕萝莉
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_CULTISTCLERIC:
+  name: 血腥教徒
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_CULTISTKNIGHT:
+  name: 血腥骑士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_CULTISTLEADER:
+  name: 血腥教主
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_CULTISTPORTALGREATER:
+  name: 巨型血腥传送门
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_CULTISTPORTALLESSER:
+  name: 血腥传送门
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_CYANFLOWER:
+  name: 青花
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_CYCLOPS:
+  name: 独眼战士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_DEATHTOME:
+  name: 死灵书
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_DEATHWORD:
+  name: 死亡咒书
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_DEBUGMOB:
+  name: 调试怪物
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+MYSTICALWORLD_DEER:
+  name: 鹿
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+SAKURA_DEER:
+  name: 鹿
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_DEER:
+  name: 鹿
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_DHAMPIR:
+  name: 半吸血鬼
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_DRYAD:
+  name: 树妖
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_DULLAHAN:
+  name: 无头骑士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_DWARF:
+  name: 矮子
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_ELDRITCHCRAB:
+  name: 邪术爪牙
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_ELDRITCHGOLEM:
+  name: 邪术构建体
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_ELDRITCHGUARDIAN:
+  name: 邪术守卫
+  min-money: 1
+  money: 0
+  max-money: 80
+  commands:
+  - null
+THAUMCRAFT_ELDRITCHWARDEN:
+  name: 邪术领主
+  min-money: 1
+  money: 0
+  max-money: 100
+  commands:
+  - null
+GRIMOIREOFGAIA_ENDERDRAGONGIRL:
+  name: 末影龙萝莉
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_ENDEREYE:
+  name: 末影眼
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_ENDERGIRL:
+  name: 末影萝莉
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+MYSTICALWORLD_ENDERMINI:
+  name: 迷你末影人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_FIREBAT:
+  name: 喷火兵
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_FIREFLY:
+  name: 萤火虫
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_FOX:
+  name: 狐狸
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_FROG:
+  name: 青蛙
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_HELLSPROUT:
+  name: 地狱芽
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_LAVACAT:
+  name: 熔岩猫
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_LURKER:
+  name: 潜伏者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+MYSTICALWORLD_OWL:
+  name: 猫头鹰
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_SPIRITBEETLE:
+  name: 灵龟
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_SPIRITDEER:
+  name: 精灵鹿
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+MYSTICALWORLD_SPROUT:
+  name: 芽
+  min-money: 1
+  money: 0
+  max-money: 5
+  commands:
+  - null
+BAT:
+  name: 蝙蝠
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+BLAZE:
+  name: 烈焰人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+CAVE_SPIDER:
+  name: 洞穴蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+CHICKEN:
+  name: 鸡
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+COW:
+  name: 奶牛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+CREEPER:
+  name: 苦力怕
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+DONKEY:
+  name: 驴
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+ELDER_GUARDIAN:
+  name: 远古守卫者
+  min-money: 1
+  money: 0
+  max-money: 100
+  commands:
+  - null
+ENDER_DRAGON:
+  name: 末影龙
+  min-money: 1
+  money: 0
+  max-money: 300
+  commands:
+  - null
+ENDERMAN:
+  name: 末影人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+ENDERMITE:
+  name: 末影螨
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_FIREBEETLE:
+  name: 喷火甲虫
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_FLESHLICH:
+  name: 僵尸巫妖
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_GELATINOUSSLIME:
+  name: 胶状史莱姆
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GHAST:
+  name: 幽灵
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GIANT:
+  name: 巨人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_GIANTMINER:
+  name: 巨人矿工
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_GIANTBRAINYZOMBIE:
+  name: 红眼巨人僵尸
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+GRIMOIREOFGAIA_GOBLINFERAL:
+  name: 野蛮哥布林
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_GOBLINKNIGHTLOWER:
+  name: 哥布林骑士下
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_GOBLINKNIGHTUPPER:
+  name: 哥布林骑士上
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+IRON_GOLEM:
+  name: 傀儡
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_GORGON:
+  name: 蛇发女妖
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_GRYPHON:
+  name: 狮鹫
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GUARDIAN:
+  name: 守护者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_HARBINGERCUBE:
+  name: harbinger_cube
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+GRIMOIREOFGAIA_HARPY:
+  name: 鹰身女妖
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_HARPYWIZARD:
+  name: 鹰身女妖巫师
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_HEDGESPIDER:
+  name: 树篱蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_HELMETCRAB:
+  name: 寄居蟹
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_HOLSTAURUS:
+  name: 霍尔斯塔鲁斯
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+GRIMOIREOFGAIA_HORSE:
+  name: 马
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_HOSTILEWOLF:
+  name: 饿狼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_HUNTER:
+  name: 猎人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+HUSK:
+  name: 尸壳
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_HYDRA:
+  name: 九头蛇
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+THAUMCRAFT_INHABITEDZOMBIE:
+  name: 行尸走肉
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_KIKIMORA:
+  name: 奇奇莫拉
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_KINGSPIDER:
+  name: 国王蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_KNIGHTPHANTOM:
+  name: 骑士魅影
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+TWILIGHTFOREST_LICH:
+  name: 巫妖
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+TWILIGHTFOREST_LICHMINION:
+  name: 巫妖仆从
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+LLAMA:
+  name: 羊驼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+MAGMA_CUBE:
+  name: 岩浆怪
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_MATANGO:
+  name: 蘑菇人
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_MAZESLIME:
+  name: 迷宫史莱姆
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_MERMAID:
+  name: 美人鱼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_MIMIC:
+  name: 宝箱怪
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+THAUMCRAFT_MINDSPIDER:
+  name: 心魔蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_MINIGHAST:
+  name: 迷你幽灵
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_MINOSHROOM:
+  name: 米诺菇
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_MINOTAUR:
+  name: 米诺陶
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_MINOTAUR:
+  name: 米诺陶
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_MINOTAURUS:
+  name: 米诺陶斯
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+TWILIGHTFOREST_MISTWOLF:
+  name: 雾狼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_MITE:
+  name: 螨
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+MOOSHROOM:
+  name: 哞菇
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_MOSQUITOSWARM:
+  name: 蚊群
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+MULE:
+  name: 骡子
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_MUMMY:
+  name: 木乃伊
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_NAGA:
+  name: 纳迦
+  min-money: 1
+  money: 0
+  max-money: 100
+  commands:
+  - null
+TWILIGHTFOREST_NAGA:
+  name: 纳迦
+  min-money: 1
+  money: 0
+  max-money: 100
+  commands:
+  - null
+GRIMOIREOFGAIA_NINETAILS:
+  name: 九尾
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+OCELOT:
+  name: 豹猫
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_ONI:
+  name: 赤鬼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PARROT:
+  name: 鹦鹉
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+THAUMCRAFT_PECH:
+  name: 岩精
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_PENGUIN:
+  name: 企鹅
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PIG:
+  name: 猪
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_PINCHBEETLE:
+  name: 小甲虫
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+BOTANIA_BOTANIAPINKWITHER:
+  name: 粉红凋零
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+BOTANIA_BOTANIAPIXIE:
+  name: 小精灵
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+POLAR_BEAR:
+  name: 北极熊
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJBANSHEE:
+  name: 小女妖
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJBEACHSTARFISH:
+  name: 海滩海星
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJCLAM:
+  name: 文蛤
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJCOYOTE:
+  name: 土狼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJDUCK:
+  name: 小鸭子
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJFLY:
+  name: 飞鸟
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJGHOST:
+  name: 鬼魂
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJGOON:
+  name: 呕吐者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+PVJ_PVJICECUBE:
+  name: 浮冰怪
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJSHADE:
+  name: 阴影
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJSMALLSPIDER:
+  name: 小蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJSNAIL:
+  name: 田螺
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJSTARFISH:
+  name: 海星
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+PVJ_PVJWATCHER:
+  name: 守望者
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_QUESTRAM:
+  name: 迷题羊
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_RAVEN:
+  name: 掠夺者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_REDCAP:
+  name: 红帽
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_REDCAPSAPPER:
+  name: 红帽工兵
+  min-money: 1
+  money: 0
+  max-money: 30
+  commands:
+  - null
+SAKURA_SAMURAIILLAGER:
+  name: 灾厄武士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_SATYRESS:
+  name: 半羊人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_SELKIE:
+  name: 海豹人
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SHAMAN:
+  name: 萨满
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_SHARKO:
+  name: 鲨鱼战士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SHEEP:
+  name: 羊
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+SHULKER:
+  name: 潜影贝
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+SILVERFISH:
+  name: 蠹虫
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SIREN:
+  name: 塞壬
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SKELETON:
+  name: 骷髅
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SKELETONDRUID:
+  name: 骷髅德鲁伊
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_SKELETON_HORSE:
+  name: 骷髅马
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+SLIME:
+  name: 史莱姆
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_SLIMEBEETLE:
+  name: 粘液甲虫
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SLIMEGIRL:
+  name: 史莱姆萝莉
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SLUDGEGIRL:
+  name: 污泥萝莉
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_SNOWGUARDIAN:
+  name: 冰雪守卫
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SNOWQUEEN:
+  name: 白雪公主
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_SNOWMAN:
+  name: 雪人
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+THAUMCRAFT_SPELLBAT:
+  name: 魔术师
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SPHINX:
+  name: 斯芬克斯
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SPIDER:
+  name: 蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SPORELING:
+  name: 孢子
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_SPRIGGAN:
+  name: 树精
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+SQUID:
+  name: 鱿鱼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_SQUIRREL:
+  name: 松鼠
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_STABLEICECORE:
+  name: 冰精灵
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+STRAY:
+  name: 流浪者
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_SUCCUBUS:
+  name: 魅魔
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_SWARMSPIDER:
+  name: 蜂群蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+THAUMCRAFT_TAINTACLE:
+  name: 腐化触手怪
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+THAUMCRAFT_TAINTCRAWLER:
+  name: 腐化蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_TOAD:
+  name: 蟾蜍
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUCHINGER:
+  name: 豆腐怪
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUCOW:
+  name: 豆腐牛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUFISH:
+  name: 豆腐鱼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUGANDLEM:
+  name: 豆腐战神
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+TOFUCRAFT_TOFUMINDCORE:
+  name: 豆腐战士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TOFUCRAFT_TOFUNIAN:
+  name: 豆腐村民
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUSLIME:
+  name: 豆腐史莱姆
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUSPIDER:
+  name: 豆腐蜘蛛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TOFUCRAFT_TOFUTURRET:
+  name: 豆腐无人机
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_TOWERBROODLING:
+  name: 寄生虫
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_TOWERGHAST:
+  name: 高塔幽灵
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_TOWERGOLEM:
+  name: 高塔铁傀儡
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_TOWERTERMITE:
+  name: 高塔螟
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_UNSTABLEICECORE:
+  name: 破碎冰精灵
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_URGHAST:
+  name: 暮色恶魂
+  min-money: 1
+  money: 0
+  max-money: 150
+  commands:
+  - null
+GRIMOIREOFGAIA_VALKYRIE:
+  name: 瓦尔基里
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_VAMPIRE:
+  name: 吸血鬼
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+VEX:
+  name: 恼鬼
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+VILLAGER:
+  name: 村民
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+VINDICATION:
+  name: 卫道士
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_WERECAT:
+  name: 猫妖
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+GRIMOIREOFGAIA_WERESHEEP:
+  name: 绵羊人
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+TWILIGHTFOREST_WILDBOAR:
+  name: 野猪
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+TWILIGHTFOREST_WINTERWOLF:
+  name: 寒冬狼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+THAUMCRAFT_WISP:
+  name: 精灵
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_WITCH:
+  name: 女巫
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+WITHER:
+  name: 凋零
+  min-money: 1
+  money: 0
+  max-money: 100
+  commands:
+  - null
+GRIMOIREOFGAIA_WITHERCOW:
+  name: 凋零牛
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+WITHER_SKELETON:
+  name: 凋零骷髅
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+WOLF:
+  name: 狼
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+GRIMOIREOFGAIA_YUKIONNA:
+  name: 雪女
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+ZOMBIE:
+  name: 僵尸
+  min-money: 1
+  money: 0
+  max-money: 50
+  commands:
+  - null
+ZOMBIE_HORSE:
+  name: 僵尸马
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+ZOMBIE_PIGMAN:
+  name: 僵尸猪人
+  min-money: 1
+  money: 0
+  max-money: 60
+  commands:
+  - null
+ZOMBIE_VILLAGER:
+  name: 僵尸村民
+  min-money: 1
+  money: 0
+  max-money: 10
+  commands:
+  - null
+HORSE: {}
+PIG_ZOMBIE: {}

@@ -1,0 +1,44 @@
+lastAccountName: wdnmd
+timestamps:
+  login: 1608196585119
+  logout: 1608201487541
+  lastteleport: 1608201469128
+ipAddress: 122.226.204.29
+lastlocation:
+  world: world
+  x: -9497.871291941648
+  y: 65.0
+  z: 2107.785708741716
+  yaw: -107.297455
+  pitch: -14.526011
+logoutlocation:
+  world: world
+  x: 5099.659987293479
+  y: 36.0
+  z: 69.9374627992227
+  yaw: -248.26093
+  pitch: 35.399975
+money: '2265.46'
+homes:
+  b:
+    world: world
+    x: -9488.300000011921
+    y: 65.0
+    z: 2108.7949220122487
+    yaw: -298.24768
+    pitch: 20.123995
+  a:
+    world: world
+    x: 5271.133759839698
+    y: 70.0
+    z: -158.24172825427075
+    yaw: -166.38806
+    pitch: 10.9499445
+  c:
+    world: world
+    x: 5097.45417485355
+    y: 36.0
+    z: 73.44103335621197
+    yaw: -240.161
+    pitch: 23.700003
+afk: false

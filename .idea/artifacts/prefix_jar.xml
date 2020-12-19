@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="prefix:jar">
+    <output-path>$PROJECT_DIR$/lib/plugins/PlaceholderAPI/expansions</output-path>
+    <root id="archive" name="prefix.jar">
+      <element id="module-output" name="prefix" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

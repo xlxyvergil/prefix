@@ -1,0 +1,7 @@
+LanguageUnitList:
+  anExample:
+    PluginName: Essentials
+    Enable: true
+    Language:
+      OldText: <fixed>Unknown command. Type "/help" for help.</fixed>
+      NewText: <fixed>&c未知指令,请输入 /help 来查看帮助    (PS:由CAUC插件汉化)</fixed>

@@ -1,0 +1,125 @@
+auction:
+  bid:
+    intervalInSeconds: 0
+    # 这里可以修改玩家竞拍同一件物品时的冷却时间，单位秒
+  charge:
+    chargePercentPerBid: 0
+    # 竞拍手续费，单位是%  0 到 100
+    minimumChargePerBid: 0
+    # 最低手续费价格，默认1
+  transferAccount: ''
+  # 指定一个玩家账户，拍卖获得的钱都将转移到这个玩家账户上
+  # 例如 transferAccount: Cnly
+  # 设置为 '' 将禁用该功能
+  profiles:  # 如果你要添加其他配置文件，记得要把 'default' 放入列表中的最后一个. 另外不要删除 'default'.
+    disable:  # 这是一个配置好的禁用拍卖的配置，如果你想禁止指定区域或世界不启用拍卖的话.
+      useAsBlacklist: false
+      auctionableItems: []
+    default:
+      useAsBlacklist: false
+      # 黑名单模式，默认关闭
+      # 你可以这样理解，false的时候，列表中的物品就是白名单，会被上架。而true的话，列表中的物品就变成了黑名单，不会被上架。
+      # 要使用黑名单，你需要在列表中增加一个名为 'DEFAULT' 的物品。这个DEFAULT代表了所有除黑名单以外的物品的参数。
+      # 配置文件自带一份DEFAULT的例子，但是要注意的是，DEFAULT必须放在最下面！
+      auctionableItems:
+        - item: 'WOOL:5'
+          # 物品名，注意在新版本里ID已经被移除，只能使用物品英文ID。
+          # 如果不知道物品ID，装有ESS插件的情况下可使用/itemdb命令来查看手中物品英文ID
+          # 格式: ITEM_NAME:DATA_VALUE 或者 ITEM_NAME
+          minDurabilityPercent: 0
+          # 物品最低耐久度百分比
+          maxDurabilityPercent: 100
+          # 物品最高耐久度百分比
+          # 耐久度不适用于所有物品，比如方块
+          startingPrice: 0.98
+          # 默认价格
+          minimumIncrement: 0.01
+          # 每次最低竞拍出价，注意！必须保留两位小数，否则会出错！
+          preserveTimeInSeconds: 600
+          # 物品在没被竞拍前的倒计时，时间一到就自动清理
+          auctionDurationInSeconds: 300
+          # 物品被竞拍后的倒计时，时间一到就自动将物品发送给最后竞拍的玩家
+        - item: DEFAULT
+          minDurabilityPercent: 0
+          maxDurabilityPercent: 100
+          startingPrice: 1.00
+          minimumIncrement: 0.05
+          preserveTimeInSeconds: 600
+          auctionDurationInSeconds: 300
+      
+cleaning:
+  profiles:  # 如果你要添加其他配置文件，记得要把 'default' 放入列表中的最后一个. 另外不要删除 'default'.
+    disable:  # 这是一个配置好的禁止清理的配置项目，如果你想禁止指定区域或者世界启用清理的话
+      active:
+        enabled: false
+        auction: false
+        autoMerge: false
+        intervalInSeconds: 0
+        generousDelayInSeconds: 0
+        protectQuickShopItems: true
+        protectedDisplayNameContents: []
+        protectedLoreContents: []
+        preservedItems: []
+        inRegionNotification: false
+        notify: []
+        clickableCleaningNotification: false
+      passive:
+        auction: false
+    default:
+      active:
+      # 这里可以设置使用该插件的主动清理掉落物的功能，简单点就是是否开启扫地大妈模式
+        enabled: true
+        # 开关，默认关闭
+        auction: false
+        # 是否启用上面的auction规则进行筛选物品来拍卖，默认启用
+        autoMerge: false
+        # 扫到相同的物品时是否进行合并，比如扫到2份32个石头，就合并成一份64个石头进行拍卖。
+        intervalInSeconds: 1800
+        # 主动清理的时间间隔
+        generousDelayInSeconds: 60
+        # 这个选项可以设置物品掉落保护时间，可以避免物品丢出去的时候正好扫地大妈扫来，单位是秒。
+        protectQuickShopItems: true
+        # 是否防止 QuickShop 悬浮物不会被清理.
+        protectedDisplayNameContents:
+          - 'MySpecialItemName'
+        # 如果物品名包含该内容则不会被清理
+        # 如果你想要使用颜色代码，请使用: ??
+        protectedLoreContents:
+          - 'MySpecialItemLore'
+        # 物品lore包含该内容则不会被清理
+        # 如果你想要使用颜色代码，请使用: ??
+        preservedItems:
+          - 'WOOL:5'
+          # 指定物品不会被清理
+          # 注意在新版本里ID已经被移除，只能使用物品英文ID。
+          # 如果不知道物品ID，装有ESS插件的情况下可使用/itemdb命令来查看手中物品英文ID
+          # 格式: ITEM_NAME:DATA_VALUE 或者 ITEM_NAME
+        inRegionNotification: true
+        # 设置为true则只有清理区域内的玩家才能收到清理提示
+        # 反之设置为false则全服都能收到清理提示.
+        notify:
+        # 扫地大妈消息提示的时间，单位秒
+          - 300: '清理倒计时300S'
+          - 60: '清理倒计时60S'
+          - 30: '清理倒计时30S'
+          - 10: '清理倒计时10S'
+        # 通知消息可以通过设置引号''中的内容来自定义。
+        clickableCleaningNotification: false
+        # 启用该功能后可以直接通过点击扫地提示快速打开拍卖行，该功能仅支持172+
+      passive:
+      # Minecraft原版清理机制
+        auction: false
+        # 是否启用Minecraft原版清理机制，如果开启主动清理的话建议设置该选项为false
+    
+vault:
+  capacity:
+    defaultCapacity: 9
+    # 默认保险柜的空间，最大支持54个空位，保险柜空间决定了玩家最大竞拍数量
+    permissionControl: true
+    # 是否允许用权限来增加保险柜容量
+    # 权限例子: WowSuchCleaner.vault.capacity.18  如果玩家拥有这个权限，那么玩家的保险柜最大空间将是18
+    # 同样，玩家竞拍最大数量也会变成18，最大支持54
+    
+locale: zh_CN
+# 设置语言，默认英文: en_UK, zh_CN, de_DE
+# 注意！这些语言文件都是在jar里的！直接在这里设置好语言然后输入/wsc reload 即可，不要再问为什么没看到中文了！

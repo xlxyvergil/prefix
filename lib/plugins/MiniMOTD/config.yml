@@ -1,0 +1,37 @@
+motd:
+  # Do you want to enable this feature?
+  motdEnabled: true
+
+  # Placeholders: {onlinePlayers} {maxPlayers}
+  # Use {br} to separate lines.
+  # Putting more than one will cause one to be randomly chosen each refresh
+  motds:
+    - "<bold><gradient:#B8A6FF:red>------======[</gradient> <gradient:red:yellow>❤和谐❤有爱の<gradient:green:blue>联机服</gradient> <gradient:blue:#5FDAFF>]======------</gradient></bold>{br} <bold><rainbow>||||||||||||||||||||||||||||||||||||</rainbow> <gradient:#EEFF4A:#F7FFAE><italic>MOD√ 神秘√</italic></gradient> <gradient:#5FDAFF:#B8A6FF><italic>拔刀√ 生存√</italic></gradient> <rainbow>||||||||||||||||||||||||||||||||||||</rainbow></bold>"
+
+maxPlayers:
+  # Do you want to enable this feature?
+  maxPlayersEnabled: true
+
+  # Changes the Max Players value.
+  maxPlayers: 69
+
+  # Changes the Max Players to X more than the online players
+  # Example: 16/19 players online.
+  justXMoreEnabled: false
+  xValue: 3
+
+# These options work on Paper Servers as well as BungeeCord or Waterfall based proxies
+# These options do not work on pure Spigot Servers as the API methods are missing
+# Get Paper here: https://papermc.io/downloads
+bungeeOnly:
+  # Do you want to enable this feature?
+  fakePlayersEnabled: false
+
+  # Modes: static, random, percent
+  #   static: This many fake players will be added
+  #     ex: fakePlayers: "3"
+  #   random: A random number of fake players in this range will be added
+  #     ex: fakePlayers: "3:6"
+  #   percent: The player count will be inflated by this much, rounding up
+  #     ex: fakePlayers: "25%"
+  fakePlayers: "25%"

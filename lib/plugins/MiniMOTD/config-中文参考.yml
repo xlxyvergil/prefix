@@ -1,0 +1,23 @@
+motd:
+  # 启动/关闭MOTD功能
+  motdEnabled: true
+
+  # 变量 {onlinePlayers}在线玩家数 {maxPlayers}最大玩家数
+  # {br} 分格行
+  # 下面是MOTD 如果有多行则是随机的
+  motds:
+    - "<bold><gradient:black:white>----====[</gradient> <gradient:green:blue>UltraCraft <gradient:red:yellow></bold><italic>Official</gradient></italic><bold> <gradient:white:black>]=====----</gradient></bold>{br}<bold>    <gradient:#EEFF4A:#F7FFAE>Custom <italic>Survival</italic></gradient>    <color:#0092FF>Discord</bold><gray>:</gray> <gradient:#5FDAFF:#B8A6FF><italic>Ab3d5f"
+    - "<rainbow>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||</rainbow>{br}<white>Hello <blue>{onlinePlayers} <gray>/</gray> {maxPlayers}</blue> Players Online"
+
+maxPlayers:
+  # 启动/关闭玩家人数功能
+  maxPlayersEnabled: true
+
+  # 最大玩家数
+  maxPlayers: 69
+
+  # 永远比在线玩家多X人
+  # 比如: 1/2 进来两个玩家则是 3/4
+  justXMoreEnabled: false
+  # 这个就是设置比在线人数多多少人 3就是最大玩家数比在线人数多3人
+  xValue: 3

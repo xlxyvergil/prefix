@@ -1,0 +1,11 @@
+Players:
+  4104a4b5-cc3c-3df4-bbc0-34532285e10e:
+    Name: xlvergil
+    Prefix: '&2[分身]'
+    Suffix: '&c'
+    SortPriority: 3
+  3a18f48a-d076-4750-9ab0-2743bf10080f:
+    Name: '&axlxyvergil'
+    Prefix: '&d[憨憨]'
+    Suffix: '&c[萝莉控]'
+    SortPriority: -1

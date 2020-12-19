@@ -1,0 +1,6 @@
+CAUC:
+  TranslateControl:
+    Message:
+      Enable: true
+    ScoreBoard:
+      Enable: true

@@ -1,0 +1,48 @@
+################################################################
+#              LaggRemoverPlus made by bwfcwalshy              #
+# Original: https://dev.bukkit.org/bukkit-plugins/laggremover/ #
+################################################################
+
+# If enabled, every 30 seconds it will unload loaded chunks with no players.
+Auto-Unload-Chunks: true
+
+# Removes spawn chunks for all the worlds.
+No-Spawn-Chunks: true
+
+# If enabled the smart lag ai will be activated to keep your server lag free
+Smart-Lag-Ai: false
+
+# If a player types "lag" or "lagg" it will check the tps specified and if it is lower it will activate the lag removal. (SmartLagAi)
+TPS: 16.00
+
+# If a player types "lag" or "lagg" it will check the ram specified and if it is lower it will activate the lag removal. Measured in MB (SmartLagAi)
+RAM: 400
+
+# This is the protocol id that you want executed by the smart lag removal tool. PROTOCOLS: clear_items, warn_clear_items, warn_clear_entities_all, warn_clear_entities_hostile, warn_clear_entities_peaceful, clear_entities_all, clear_entities_hostile, clear_entities_peaceful, command
+Lag-Protocol: command
+
+# This command will be run when the command protocol is used. This can be any command from any plugin. (WITHOUT THE / PREFIX)
+Lag-Command: help 1
+
+# Item clearing cool down. This is how long the smart lag detection has to wait until it can run its protocol again. Time is in minutes!
+Protocol-Cooldown: 5
+
+# Disables auto save in these words. This should be used for worlds in which terrain is not being edited. Add DISABLED to save all worlds
+Save-Disabled-Worlds:
+- 'DISABLED'
+
+# This will automatically remove lag after a specified period of time. Time is in minutes!
+Auto-Lag-Removal: true
+Auto-Lag-Time: 10
+
+# This means players without the lrp.view permission will not see messages from LaggRemoverPlus
+No-Messages: false
+
+# This prevents mobs from spawning in chunks which contains more than the "Limit-Mobs-At" amount.
+Limit-Mobs: false
+
+# The max number of mobs that can spawn in a chunk
+Limit-Mobs-At: 30
+
+# If true, when a new version of the plugin is out it will automatically update for you!
+Auto-Update: false

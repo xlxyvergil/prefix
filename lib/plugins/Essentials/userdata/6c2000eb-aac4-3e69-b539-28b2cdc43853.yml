@@ -1,0 +1,44 @@
+lastAccountName: biont
+timestamps:
+  login: 1607307037480
+  lastteleport: 1607275047111
+  logout: 1607309706886
+ipAddress: 58.19.100.6
+lastlocation:
+  world: world
+  x: 714.208078739108
+  y: 64.0
+  z: 217.51763690239918
+  yaw: -42.638927
+  pitch: 18.780657
+homes:
+  a:
+    world: world
+    x: 775.2212582811347
+    y: 150.0
+    z: 897.8116984376812
+    yaw: 1.1904907
+    pitch: 10.282483
+  c:
+    world: world
+    x: 985.4051501490836
+    y: 56.0
+    z: 260.667163818082
+    yaw: -292.19812
+    pitch: 33.006535
+  b:
+    world: world
+    x: 5271.367670348283
+    y: 53.0
+    z: -166.45841790459787
+    yaw: 90.47974
+    pitch: 17.123722
+logoutlocation:
+  world: world
+  x: 5285.049380692846
+  y: 42.0
+  z: -165.69999998807907
+  yaw: 141.26025
+  pitch: 15.7860565
+afk: false
+money: '622.03'

@@ -1,0 +1,35 @@
+users:
+  25fd3a7a-1db5-3693-8965-b3d31e39d00a:
+    lastname: Nekomata_Okayu
+    group: Builder
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&2[子羽]'
+      suffix:
+      - 刁民
+  3a18f48a-d076-4750-9ab0-2743bf10080f:
+    lastname: xlxyvergil
+    group: Builder
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&d[憨憨]'
+      suffix:
+      - 萝莉控
+  azurePh03nix:
+    group: Builder
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&2[NNP]'
+      suffix:
+      - issue
+  Syameimaru_Zheng:
+    group: Builder
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&d[政政]'
+      suffix:
+      - 主厨
