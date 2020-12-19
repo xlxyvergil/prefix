@@ -31,7 +31,7 @@ Boards:
     - '&6模 式: &5%player_gamemode%'
     - '&6生 存: &c%statistic_hours_played%小时'
     - '&6延 迟: &c%player_ping% ms,%server_tps_1% tps'
-    - '%player_xlprefix%'
+    - '%prefix_suffix%,%prefix_prefix%'
   #默认记分板
   admin:
     #记分板顺序(将按照从小到大依次检测 比如 1-50 优先检测 1 符合则显示 不符合 检测 2 ...)

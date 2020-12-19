@@ -3,7 +3,11 @@ package com.xlxyvergil.prefix;
 import me.clip.placeholderapi.PlaceholderAPI;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.player.PlayerJoinEvent;
 
 
 public class PrefixExpansion extends PlaceholderExpansion {
@@ -68,11 +72,9 @@ public class PrefixExpansion extends PlaceholderExpansion {
 
     private static String varMessage;
     public static String prefix;
-    public static String Suffix;
+    public static String suffix;
 
-    @Override
-    public String onPlaceholderRequest(Player player, String identifier){
-        if (player == null) return "";
+    public void onEnable(){
         String[] args = new String[0];
         if (args.length == 1) {
             Player target = Bukkit.getPlayer(args[0]);
@@ -81,22 +83,30 @@ public class PrefixExpansion extends PlaceholderExpansion {
             String[] varp = varMessage.split("", 1);
             int varm = varMessage.length();
             prefix = varp[0] + varp[1] + varp[2] + varp[3] + varp[4] + varp[5];
-            prefix = String.valueOf(Integer.parseInt(identifier));
-            Suffix = varp[varm - 5] + varp[varm - 4] + varp[varm - 3] + varp[varm - 2] + varp[varm - 1] + varp[varm];
-            Suffix = String.valueOf(Integer.parseInt(identifier));
+            suffix = varp[varm - 5] + varp[varm - 4] + varp[varm - 3] + varp[varm - 2] + varp[varm - 1] + varp[varm];
         }
-        // %someplugin_placeholder1%
-        if(identifier.equals("prefix")){
-            return prefix;
-        }
- //           return plugin.getConfig().getString("prefix", "value doesnt exist");
 
-        // %someplugin_placeholder2%
-        if(identifier.equals("Suffix")){
-            return Suffix;
+    }
+
+    public String onRequest(OfflinePlayer player,String identifier){
+        if (identifier == null) {
+        prefix = String.valueOf(Integer.parseInt(identifier));
+        suffix = String.valueOf(Integer.parseInt(identifier));
+        return "" + prefix + "" + suffix;
         }
-        // We return null if an invalid placeholder (f.e. %someplugin_placeholder3%)
-        // was provided
         return null;
+    }
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onJoin(PlayerJoinEvent event) {
+        String joinText = "%player_name% &ajoined the server! &f%prefix_prefix%";
+
+        /*
+         * We parse the placeholders using "setPlaceholders"
+         * This would turn %vault_rank% into the name of the Group, that the
+         * joining player has.
+         */
+        joinText = PlaceholderAPI.setPlaceholders(event.getPlayer(), joinText);
+
+        event.setJoinMessage(joinText);
     }
 }
