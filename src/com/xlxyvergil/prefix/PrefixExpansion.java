@@ -1,118 +1,125 @@
 package com.xlxyvergil.prefix;
 
-
-import me.clip.placeholderapi.PlaceholderAPI;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import org.bukkit.Bukkit;
-import org.bukkit.OfflinePlayer;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerJoinEvent;
 
+///**
+// * This class will automatically register as a placeholder expansion
+// * when a jar including this class is added to the directory
+// * {@code /plugins/PlaceholderAPI/expansions} on your server.
+// * <br>
+// * <br>If you create such a class inside your own plugin, you have to
+// * register it manually in your plugins {@code onEnable()} by using
+// * {@code new YourExpansionClass().register();}
+// */
+public class PrefixExpansion extends PlaceholderExpansion {
+    private Prefixonable plugin;
 
-public class PrefixExpansion extends PlaceholderExpansion implements Listener {
-//    private prefix plugin;
-//    public PrefixExpansion(prefix plugin){
-//        this.plugin = plugin;
-//    }
-    /**
-     * This method should always return true unless we have a dependency we need to make sure is on the server for our placeholders to work!
-     *
-     * @return always true since we do not have any dependencies.
-     */
+//    /**
+//     * Since we register the expansion inside our own plugin, we
+//     * can simply use this method here to get an instance of our
+//     * plugin.
+//     *
+//     * @param plugin
+//     *        The instance of our plugin.
+//     */
+    public PrefixExpansion(Prefixonable plugin){
+        this.plugin = plugin;
+    }
+
+//    /**
+//     * Because this is an internal class,
+//     * you must override this method to let PlaceholderAPI know to not unregister your expansion class when
+//     * PlaceholderAPI is reloaded
+//     *
+//     * @return true to persist through reloads
+//     */
     @Override
-    public boolean canRegister() {
+    public boolean persist(){
         return true;
     }
 
-    /**
-     * The name of the person who created this expansion should go here.
-     *
-     * @return The name of the author as a String.
-     */
+//    /**
+//     * Because this is a internal class, this check is not needed
+//     * and we can simply return {@code true}
+//     *
+//     * @return Always true since it's an internal class.
+//     */
     @Override
-    public String getAuthor() {
-        return "xlxyvergil";
+    public boolean canRegister(){
+        return true;
     }
 
-    /**
-     * The placeholder identifier should go here. <br>
-     * This is what tells PlaceholderAPI to call our onRequest method to obtain a value if a placeholder starts with our identifier. <br>
-     * This must be unique and can not contain % or _
-     *
-     * @return The identifier in {@code %<identifier>_<value>%} as String.
-     */
+//    /**
+//     * The name of the person who created this expansion should go here.
+//     * <br>For convienience do we return the author from the plugin.yml
+//     *
+//     * @return The name of the author as a String.
+//     */
     @Override
-    public String getIdentifier() {
-        return "prefix";
+    public String getAuthor(){
+        return plugin.getDescription().getAuthors().toString();
     }
 
-    /**
-     * This is the version of this expansion. <br>
-     * You don't have to use numbers, since it is set as a String.
-     *
-     * @return The version as a String.
-     */
+//    /**
+//     * The placeholder identifier should go here.
+//     * <br>This is what tells PlaceholderAPI to call our onRequest
+//     * method to obtain a value if a placeholder starts with our
+//     * identifier.
+//     * <br>The identifier has to be lowercase and can't contain _ or %
+//     *
+//     * @return The identifier in {@code %<identifier>_<value>%} as String.
+//     */
     @Override
-    public String getVersion() {
-        return "1.0.0";
+    public String getIdentifier(){
+        return "Prefixonable";
     }
 
-    public static char prefix;
-    public static char suffix;
+//    /**
+//     * This is the version of the expansion.
+//     * <br>You don't have to use numbers, since it is set as a String.
+//     *
+//     * For convienience do we return the version from the plugin.yml
+//     *
+//     * @return The version as a String.
+//     */
+    @Override
+    public String getVersion(){
+        return plugin.getDescription().getVersion();
+    }
 
-    @EventHandler(priority = EventPriority.HIGHEST)
-    public final void onJoin(PlayerJoinEvent event) {
-        String label;
-        System.out.println("1111111");
-        String[] args = {"123"};
-        System.out.println("2222222");
-        CommandSender sender = null;
-        Command command;
-        System.out.println("2233333");
-            if (args.length != 0) {
-                System.out.println("33333333");
-                String message = "%player_displayname%";
-                Player target = Bukkit.getPlayer(args[0]);
-                message = PlaceholderAPI.setPlaceholders(target, message);
-                char[] varp = message.toCharArray();
-                int n = message.length();
-                System.out.println("555555555");
-                prefix = new int[];
-//                        {varp[0] , varp[1] , varp[2] , varp[3] , varp[4] , varp[5]};
-                System.out.println("prefix ok");
-//                        new String(varp[n - 6] + varp[n - 5] + varp[n - 4] + varp[n - 3] + varp[n - 2] + varp[n - 1] + varp[n]);
-                suffix =
-//                        {varp[n - 6] , varp[n - 5] , varp[n - 4] , varp[n - 3] , varp[n - 2] , varp[n - 1] , varp[n]};
-                System.out.println("suffix ok");
-            }
-        System.out.println("------------------------------" + prefix);
-        System.out.println("------------------------------" + suffix);
+//    /**
+//     * This is the method called when a placeholder with our identifier
+//     * is found and needs a value.
+//     * <br>We specify the value identifier in this method.
+//     * <br>Since version 2.9.1 can you use OfflinePlayers in your requests.
+//     *
+//     * @param  player
+//     *         A {@link org.bukkit.Player Player}.
+//     * @param  identifier
+//     *         A String containing the identifier/value.
+//     *
+//     * @return possibly-null String of the requested identifier.
+//     */
+    @Override
+    public String onPlaceholderRequest(Player player, String identifier){
+
+        if(player == null){
+            return "";
         }
 
-    @Override
-    public String onRequest(OfflinePlayer   player,String identifier){
-        if (identifier != null) {
-            prefix = (char) Integer.parseInt(identifier);
-            return "" + prefix;
+        // %Prefixonable_prefix%
+        if(identifier.equals("prefix")){
+            return plugin.getConfig().getString("prefix", "value doesnt exist");
         }
-//        if(identifier.equals("prefix")){
-//            return plugin.getConfig().getString("prefix", "value doesnt exist");
-//        }
-//        if(identifier.equals("suffix")){
-//            return plugin.getConfig().getString("suffix", "value doesnt exist");
-//        }
-//        System.out.println("identifier ok");
-//            prefix = String.valueOf(Integer.parseInt(identifier));
-//            suffix = String.valueOf(Integer.parseInt(identifier));
-//            System.out.println("identifier ok");
-//            return "" + prefix;
-//        }
+
+        // %Prefixonable_suffix%
+        if(identifier.equals("suffix")){
+            return plugin.getConfig ( ).getString ( "suffix" , "value doesnt exist" );
+        }
+
+        // We return null if an invalid placeholder (f.e. %someplugin_placeholder3%)
+        // was provided
         return null;
     }
 }
-
