@@ -1,0 +1,5 @@
+name: prefix
+main: com.xlxyvergil.prefix.PrefixExpansion
+version: 1.0.0
+author: xlxyvergil
+softdepend: [PlaceholderAPI] #对，就是这样，把这行复制到你的plugin.yml里面。
